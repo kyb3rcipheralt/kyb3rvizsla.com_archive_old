@@ -109,7 +109,7 @@ theme = "LoveIt"
       subtitle = "💻 Programmer/SysAdmin/Hacker? | 📖 He/him"
       typeit = true
       social = true
-      #disclaimer = "Don't forget to check:"
+      disclaimer = "Don't forget to check:"
     # Home page posts
     [params.home.posts]
       enable = true
