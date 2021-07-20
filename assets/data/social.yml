@@ -54,49 +54,66 @@ gitlab:
   Icon:
     Class: fab fa-gitlab fa-fw
 
-# 008: Snapchat
-snapchat:
+
+# 008: Mastodon
+mastodon:
   Weight: 8
+  Prefix: https://mastodon.social/
+  Title: Mastodon
+  Icon:
+    Class: fab fa-mastodon fa-fw
+
+# 009: Matrix
+matrix:
+  Weight: 9
+  Prefix: https://matrix.to/#/
+  Title: Matrix
+  Icon:
+    Simpleicons: matrix
+
+# 010: Snapchat
+snapchat:
+  Weight: 10
   Prefix: https://www.snapchat.com/add/
   Title: Snapchat
   Icon:
     Class: fab fa-snapchat fa-fw
 
-# 009: YouTube Channel
+# 011: YouTube Channel
 youtubechannel:
-  Weight: 9
+  Weight: 11
   Prefix: https://www.youtube.com/channel/
   Title: YouTube
   Icon:
     Class: fab fa-youtube fa-fw
 
-# 010: Twitch
+# 012: Twitch
 twitch:
-  Weight: 10
+  Weight: 12
   Prefix: https://www.twitch.tv/
   Title: Twitch
   Icon:
     Class: fab fa-twitch fa-fw
 
-# 011: Spotify
+# 013: Spotify
 spotify:
-  Weight: 11
+  Weight: 13
   Prefix: https://open.spotify.com/user/
   Title: Spotify
   Icon:
     Class: fab fa-spotify fa-fw
 
-# 012: Email
+# 014: Email
 email:
-  Weight: 12
+  Weight: 14
   Template: mailto:%v
   Title: Email
   Icon:
     Class: far fa-envelope fa-fw
 
-# 013: RSS
+# 015: RSS
 rss:
-  Weight: 13
+  Weight: 15
   Url: /index.xml
   Title: RSS
   Newtab: true
