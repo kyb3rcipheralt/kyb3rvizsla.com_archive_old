@@ -14,7 +14,7 @@ tags: [archlinux,custom,personalizate]
 categories: []
 draft: false
 ---
-A bit illogical, right? The first post on my blog was the reasons why and today I am teaching you how to make a custom Arch Linux image. Then...
+A bit illogical, right? The [first post](/posts/why-not-create-more-linux-distributions) on my blog was the reason why I didn't create any more distributions and today I am teaching you how to make a custom Arch Linux image. But do not create another Linux just modify Arch to your liking and keep it as an Arch.But more than one will use this to create another "distribution" (Please don't). Then...
 
 {{< youtube INCSBwpJBQk >}}
 
