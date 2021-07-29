@@ -1,12 +1,12 @@
-baseURL = "http://kyb3rfett.me"
-title = "Kyb3r Fett"
+baseURL = "http://kyb3rvizsla.com"
+title = "Kyb3r Vizsla"
 
 # language
 languageCode = "en-us"
 defaultContentLanguage = "en"
 
 # theme
-theme = "LoveIt"
+theme = "DoIt"
 # emojis enable
 enableEmoji = true
 [params.page]
@@ -14,23 +14,23 @@ enableEmoji = true
 fontawesome = true
 
 [params]
-  # LoveIt theme version
+  # DoIt theme version
   version = "0.2.X"
   # site description
-  description = "Kyb3r Fett Blog and Website"
+  description = "Kyb3r Vizsla Blog and Website"
   # site keywords
-  keywords = ["Kyb3r", "Kyb3r Fett", "Hacker"]
+  keywords = ["Kyb3r", "Kyb3r Vizsla", "Hacker"]
   # site default theme ("light", "dark", "auto")
   defaultTheme = "auto"
   # others
-  gitRepo = "https://github.com/kyb3rfett/kyb3rfett.me"
+  gitRepo = "https://github.com/kyb3rvizsla/kyb3rvizsla.com"
   dateFormat = "2006-01-02"
   # website images for Open Graph and Twitter Cards
   images = ["/logo.png"]
 
 [params.app]
   # optional site title override for the app when added to an iOS home screen or Android launcher
-  title = "Kyb3r Fett"
+  title = "Kyb3r Vizsla"
   # whether to omit favicon resource links
   noFavicon = false
   # modern SVG favicon to use in place of older style .png and .ico files
@@ -81,7 +81,7 @@ fontawesome = true
   author = true
   # site creation time
   since = 2021
-  license = '<a rel="license external nofollow noopener noreffer" href="https://github.com/kyb3rfett/kyb3rfett.me/blob/main/LICENSE" target="_blank">License & Copyright</a>'
+  license = '<a rel="license external nofollow noopener noreffer" href="https://github.com/kyb3rvizsla/kyb3rvizsla.com/blob/main/LICENSE" target="_blank">License & Copyright</a>'
 
   # section (all posts) page config
   [params.section]
@@ -108,8 +108,8 @@ fontawesome = true
     # Home page profile
     [params.home.profile]
       # Gravatar Profile Photo Email
-      gravatarEmail = "me@kyb3rfett.me"
-      title = "Kyb3r Fett"
+      gravatarEmail = "me@kyb3rvizsla.com"
+      title = "Kyb3r Vizsla"
       subtitle = "💻 Programmer/SysAdmin/Hacker? | 📖 He/him"
       typeit = true
       social = true
@@ -122,20 +122,19 @@ fontawesome = true
       defaultHiddenFromHomePage = false
 
 [params.social]
-  GitHub = "kyb3rfett"
-  Twitter = "kyb3rfett"
-  Instagram = "kyb3rfett"
-  Keybase = "kyb3rfett"
-  Telegram = "kyb3rfett"
-  Reddit = "kyb3rfett"
-  GitLab = "kyb3rfett"
-  mastodon = "@kyb3rfett"
-  matrix = "@kyb3rfett:matrix.org"
-  Snapchat = "kyb3rfett"
+  GitHub = "kyb3rvizsla"
+  Twitter = "kyb3rvizsla"
+  Instagram = "kyb3rvizsla"
+  Keybase = "kyb3rvizsla"
+  Telegram = "kyb3rvizsla"
+  Reddit = "kyb3rvizsla"
+  GitLab = "kyb3rvizsla"
+  mastodon = "@kyb3rvizsla"
+  Snapchat = "kyb3rvizsla"
   Youtubechannel = "UCdowX_8Ue6b_Sfkx4bX_Gfg"
-  Twitch = "kyb3rfett"
+  Twitch = "kyb3rvizsla"
   Spotify = "3e7zcx4j0yv93iqbv78v4i6kq"
-  Email = "contact@kyb3rfett.me"
+  Email = "contact@kyb3rvizsla.com"
   RSS = true
 
 [params.page.share]
@@ -150,5 +149,4 @@ fontawesome = true
 [markup]
   # Syntax Highlighting (https://gohugo.io/content-management/syntax-highlighting)
   [markup.highlight]
-    # false is a necessary configuration (https://github.com/dillonzq/LoveIt/issues/158)
     noClasses = false

@@ -91,7 +91,7 @@ And you will have to do it like this with every missing dependency on your syste
 After installing all the dependencies install the configuration. To install my configuration it is as simple as executing:
 
 ```bash
-git clone https://github.com/kyb3rfett/dotfiles.git
+git clone https://github.com/kyb3rvizsla/dotfiles.git
 cd dotfiles
 chmod +x install.sh
 bash install.sh
@@ -170,6 +170,3 @@ In this example a shortcut is created to open the metasploit (command) with the 
 ![Commands](screenshot_commands.png)
 ![Rofi](screenshot_rofi.png)
 ![Flameshot](screenshot_flameshot.png)
-
-## Tweet
-{{< tweet 1415733604722741251 >}}
