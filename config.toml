@@ -12,6 +12,10 @@ enableEmoji = true
 [params.page]
 # font awesome enable
 fontawesome = true
+# pages styles ("normal", "wide")
+pageStyle = "wide"
+# paginator blog number of posts
+paginate = 3
 
 [params]
   # DoIt theme version
@@ -23,8 +27,9 @@ fontawesome = true
   # site default theme ("light", "dark", "auto")
   defaultTheme = "auto"
   # others
-  gitRepo = "https://github.com/kyb3rvizsla/kyb3rvizsla.com"
+  enablePWA = true
   dateFormat = "2006-01-02"
+  gitRepo = "https://github.com/kyb3rvizsla/kyb3rvizsla.com"
   # website images for Open Graph and Twitter Cards
   images = ["/logo.png"]
 
@@ -44,7 +49,7 @@ fontawesome = true
 
 # search config
 [params.search]
-  enable = false
+  enable = true
   type = "algolia"
   # max index length of the chunked content
   contentLength = 4000
@@ -136,6 +141,41 @@ fontawesome = true
   Spotify = "3e7zcx4j0yv93iqbv78v4i6kq"
   Email = "contact@kyb3rvizsla.com"
   RSS = true
+
+# Navbar config
+[menu]
+
+  [[ menu.main ]]
+    identifier = "blog"
+    name = "Blog"
+    pre = '<i class="fas fa-newspaper"></i>'
+    title = "My Personal Blog."
+    url = "/posts"
+    weight = 1
+
+  [[ menu.main ]]
+    identifier = "proyects"
+    name = "Proyects"
+    pre = '<i class="fas fa-puzzle-piece"></i>'
+    title = "My Proyects."
+    url = "/proyects"
+    weight = 2
+
+  [[ menu.main ]]
+    identifier = "profiles"
+    name = "Profiles"
+    pre = '<i class="fas fa-users"></i>'
+    title = "My all official accounts."
+    url = "/profiles"
+    weight = 5
+
+  [[ menu.main ]]
+    identifier = "about"
+    name = "About"
+    pre = '<i class="fas fa-info"></i>'
+    title = "About and contact me."
+    url = "/about"
+    weight = 6
 
 [params.page.share]
   enable = true
